@@ -21,8 +21,8 @@ This server dynamically serves static files **without recompiling**, ensuring **
 
 ### 🔹 1. Clone the repository
 ```sh
-git clone https://github.com/your-username/lab.git  
-cd lab  
+git clone git@github.com:FranklinRuiz/rust-static-server.git 
+cd rust-static-server
 ```
 
 ### 🔹 2. Install Rust (if not installed)
@@ -46,7 +46,7 @@ By default, the server will be available at **http://127.0.0.1:8080/**.
 
 ## 📁 Project Structure
 ```
-/lab  
+/rust-static-server  
  ├── src/  
  │   ├── main.rs  
  │   ├── handlers/  
